@@ -1,0 +1,24 @@
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+scipy>=1.11
+matplotlib>=3.7
+seaborn>=0.13
+tqdm>=4.66
+
+# Hugging Face stack
+datasets>=2.19
+transformers>=4.42
+accelerate>=0.30
+tokenizers>=0.19
+sentencepiece>=0.1.99
+protobuf>=4.25
+
+# Deep learning
+torch>=2.1
+
+# Prompting / agents (Qwen2.5)
+bitsandbytes>=0.43  ; sys_platform == "linux"
+
+# Classical embeddings
+gensim>=4.3

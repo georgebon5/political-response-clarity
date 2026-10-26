@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+.DS_Store
+
+# Data + model artefacts
+data/
+*.pt
+*.bin
+*.safetensors
+cache/
+.hf_cache/
+runs/
+checkpoints/
+*_out/
+
+# Results produced locally (keep only curated files in results/)
+results/raw/
+results/tmp/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# Kaggle creds, API keys
+kaggle.json
+.kaggle/
+*.key
+.env.*
